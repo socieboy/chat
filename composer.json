@@ -1,0 +1,21 @@
+{
+    "name": "socieboy/chat",
+    "description": "Laravel Chat",
+    "type": "Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Sepulveda",
+            "email": "socieboy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "predis/predis": "^1.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Socieboy\\Chat\\": "/src"
+        }
+    }
+}
