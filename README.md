@@ -20,6 +20,10 @@ Then execute the command
 ```
 Composer update
 ```
+Place the service provider on your  app.php config file.
+```
+Socieboy\Chat\ChatServiceProvider::class,
+```
 
 # Migrations
 Now execute the command.
