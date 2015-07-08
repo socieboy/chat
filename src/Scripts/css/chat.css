@@ -154,6 +154,7 @@ FACEBOOK THEME
   background: transparent;
 }
 .larachat .conversations .box .c-container .body {
+  width: 100%;
   background: #E9EAED;
   padding: 0px 3px;
   border-left: 1px solid #acb3c0;
