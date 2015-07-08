@@ -149,6 +149,7 @@ FACEBOOK THEME
   letter-spacing: 1px;
 }
 .larachat .conversations .box .c-container .header button {
+  font-size: 1em;
   float: right;
   border: 0px;
   background: transparent;
