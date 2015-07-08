@@ -52,6 +52,11 @@ Socieboy\Chat\Traits\AuthenticatesAndRegistersUsers
 ```
 
 ## Styles and Scripts
+
+Publish the scripts and styles with the command
+```
+php artisan vendor:publish
+```
 Set up on your master view page the fallow code.
 On the meta tags area between the \<head>\</head> tags.
 
