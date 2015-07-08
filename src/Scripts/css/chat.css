@@ -197,6 +197,7 @@ FACEBOOK THEME
   color: #0f0f0f;
   background: #ffffff;
   border: 1px solid #CACACA;
+  width: 75% !important;
 }
 .larachat .conversations .box .c-container .body ul li .message .bubble:after {
   content: '';
@@ -226,16 +227,17 @@ FACEBOOK THEME
   background: #E2EDFD;
   border-color: #A6B7CF;
   margin: 5px 10px 1px 40px;
+  margin-left: 60px !important;
 }
 .larachat .conversations .box .c-container .body ul li .message .blue:after {
   border-color: transparent #E2EDFD;
   border-width: 5px 0px 5px 5px;
-  left: 214px;
+  left: 198px;
 }
 .larachat .conversations .box .c-container .body ul li .message .blue:before {
   border-color: transparent #A3B3CB;
   border-width: 5px 0px 5px 5px;
-  left: 215px;
+  left: 199px;
 }
 .larachat .conversations .box .c-container .footer {
   border-left: 1px solid #acb3c0;
@@ -256,7 +258,7 @@ FACEBOOK THEME
   -ms-overflow-style: none;
 }
 .larachat .conversations .box .collapsed {
-  width: 200px;
+  width: 220px;
 }
 .larachat .conversations .box .collapsed .header {
   overflow: hidden;
