@@ -20,6 +20,15 @@ nmp install socket.io
 nmp install ioredis
 ```
 
+Run redis on your server
+```
+redis-server
+```
+Then on your project folder execute this code
+```
+node socket.js
+```
+
 ## Download and Installation
 Download laravel chat package to your project
 ```
