@@ -1,0 +1,15 @@
+<div class="message">
+
+    <img class="avatar"
+         v-if="message.from_user_id == conversation.id"
+         v-attr="src: conversation.avatar | avatar"
+         alt="{{ conversation.name }}"
+    />
+
+        <div class="bubble" v-class="blue: message.from_user_id != conversation.id">
+            {{ message.message }}
+        </div>
+
+    </div>
+
+</div>

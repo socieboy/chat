@@ -1,0 +1,39 @@
+
+<div class="sidebar" v-class="logout" id="slidebar">
+
+    <div class="header">
+        Users Online
+    </div>
+
+    <ul class="list-group">
+
+        <li v-repeat="user: users | filterBy search"
+            class="list-group-item"
+            v-on="click: startConversation(user)"
+            v-transition="staggered"
+            stagger="100">
+
+            <user user="{{@ user }}"></user>
+
+        </li>
+
+    </ul>
+
+    <input type="text" v-model="search" placeholder="&#xF002; Search ..."/>
+
+</div>
+
+<div class="conversations" v-class="conversations-sidebar-hidden: ! isVisible">
+
+    <div class="box" v-repeat="conversation: conversations">
+
+        <conversation
+                close-conversation="{{closeConversation}}"
+                conversation="{{@ conversation }}">
+        </conversation>
+
+    </div>
+
+</div>
+
+<toggle change-visible-status="{{changeVisibleStatus}}"></toggle>

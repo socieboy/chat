@@ -54,6 +54,11 @@ class ChatServiceProvider extends ServiceProvider
             __DIR__.'/Scripts/js/chat.js' => base_path('public/js/chat.js'),
             __DIR__.'/Scripts/js/socket.io.js' => base_path('public/js/socket.io.js'),
 
+
+            // Publish assets on resources folder
+            __DIR__.'/Scripts/assets/js/chat' => base_path('resources/assets/js/chat'),
+            __DIR__.'/Scripts/assets/less' => base_path('resources/assets/less'),
+
         ]);
     }
 }

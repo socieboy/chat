@@ -1,4 +1,4 @@
-#socieboy {
+.larachat {
   /**
 
 FACEBOOK THEME
@@ -28,7 +28,7 @@ FACEBOOK THEME
 
 */
 }
-#socieboy .sidebar {
+.larachat .sidebar {
   position: fixed;
   height: 100%;
   right: 0;
@@ -37,18 +37,18 @@ FACEBOOK THEME
   border-left: 1px solid #cccccc;
   width: 250px;
 }
-#socieboy .sidebar .header {
+.larachat .sidebar .header {
   background: #5e78b2;
   padding: 5px 10px;
   border-bottom: 1px solid #2d4588;
   color: #ffffff;
   letter-spacing: 1px;
 }
-#socieboy .sidebar .list-group {
+.larachat .sidebar .list-group {
   margin-bottom: 0px;
   border: 0px;
 }
-#socieboy .sidebar .list-group .list-group-item {
+.larachat .sidebar .list-group .list-group-item {
   cursor: pointer;
   border-color: #cccccc;
   border-top: 0px;
@@ -59,40 +59,40 @@ FACEBOOK THEME
   padding: 3px 2px;
   margin: 0px;
 }
-#socieboy .sidebar .list-group .list-group-item .avatar {
+.larachat .sidebar .list-group .list-group-item .avatar {
   width: 35px;
   height: 35px;
   padding: 1px;
 }
-#socieboy .sidebar .list-group .list-group-item .name {
+.larachat .sidebar .list-group .list-group-item .name {
   font-size: .9em;
 }
-#socieboy .sidebar .list-group .list-group-item .online {
+.larachat .sidebar .list-group .list-group-item .online {
   font-size: .7em;
   color: #a1c469;
   float: right;
   margin: 10px;
 }
-#socieboy .sidebar .list-group .list-group-item .staggered-transition {
+.larachat .sidebar .list-group .list-group-item .staggered-transition {
   transition: all .2s ease;
   overflow: hidden;
   margin: 0;
 }
-#socieboy .sidebar .list-group .list-group-item .staggered-enter,
-#socieboy .sidebar .list-group .list-group-item .staggered-leave {
+.larachat .sidebar .list-group .list-group-item .staggered-enter,
+.larachat .sidebar .list-group .list-group-item .staggered-leave {
   opacity: 0;
   height: 0;
 }
-#socieboy .sidebar .list-group .list-group-item:hover {
+.larachat .sidebar .list-group .list-group-item:hover {
   background: #fcfcfc;
 }
-#socieboy .sidebar .list-group .highlight {
+.larachat .sidebar .list-group .highlight {
   background: blue;
 }
-#socieboy .sidebar .list-group .list-group-item:last-child {
+.larachat .sidebar .list-group .list-group-item:last-child {
   border-bottom: 0px;
 }
-#socieboy .sidebar input {
+.larachat .sidebar input {
   font-family: FontAwesome;
   position: absolute;
   width: 100%;
@@ -101,7 +101,7 @@ FACEBOOK THEME
   bottom: 0px !important;
   outline: none;
 }
-#socieboy .toggle {
+.larachat .toggle {
   position: fixed;
   margin: 0px;
   padding: 0px;
@@ -117,25 +117,25 @@ FACEBOOK THEME
   top: 0px;
   outline: none;
 }
-#socieboy .toggle-hidden {
+.larachat .toggle-hidden {
   right: 0px;
   top: 0px;
 }
-#socieboy .conversations {
+.larachat .conversations {
   bottom: 0px;
   position: fixed;
   right: 250px;
 }
-#socieboy .conversations .box {
+.larachat .conversations .box {
   display: inline;
   margin-right: 10px;
   float: right;
 }
-#socieboy .conversations .box .c-container {
+.larachat .conversations .box .c-container {
   border: 0;
   width: 280px;
 }
-#socieboy .conversations .box .c-container .header {
+.larachat .conversations .box .c-container .header {
   cursor: pointer;
   background: #5e78b2;
   border: 1px solid #2d4588;
@@ -148,12 +148,12 @@ FACEBOOK THEME
   font-size: .9em;
   letter-spacing: 1px;
 }
-#socieboy .conversations .box .c-container .header button {
+.larachat .conversations .box .c-container .header button {
   float: right;
   border: 0px;
   background: transparent;
 }
-#socieboy .conversations .box .c-container .body {
+.larachat .conversations .box .c-container .body {
   background: #E9EAED;
   padding: 0px 3px;
   border-left: 1px solid #acb3c0;
@@ -162,33 +162,33 @@ FACEBOOK THEME
   height: 250px;
   overflow-y: scroll;
 }
-#socieboy .conversations .box .c-container .body::-webkit-scrollbar {
+.larachat .conversations .box .c-container .body::-webkit-scrollbar {
   width: 5px;
 }
-#socieboy .conversations .box .c-container .body::-webkit-scrollbar-track {
+.larachat .conversations .box .c-container .body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
-#socieboy .conversations .box .c-container .body::-webkit-scrollbar-thumb {
+.larachat .conversations .box .c-container .body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
-#socieboy .conversations .box .c-container .body ul {
+.larachat .conversations .box .c-container .body ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
 }
-#socieboy .conversations .box .c-container .body ul li .message {
+.larachat .conversations .box .c-container .body ul li .message {
   position: relative;
 }
-#socieboy .conversations .box .c-container .body ul li .message .avatar {
+.larachat .conversations .box .c-container .body ul li .message .avatar {
   width: 33px;
   height: 33px;
   float: left;
   border-radius: 3px;
   border: 1px solid #CACACA;
 }
-#socieboy .conversations .box .c-container .body ul li .message .bubble {
+.larachat .conversations .box .c-container .body ul li .message .bubble {
   position: relative;
   font-size: .9em;
   margin: 5px 1px 1px 40px;
@@ -198,7 +198,7 @@ FACEBOOK THEME
   background: #ffffff;
   border: 1px solid #CACACA;
 }
-#socieboy .conversations .box .c-container .body ul li .message .bubble:after {
+.larachat .conversations .box .c-container .body ul li .message .bubble:after {
   content: '';
   position: absolute;
   border-style: solid;
@@ -210,7 +210,7 @@ FACEBOOK THEME
   left: -5px;
   top: 10px;
 }
-#socieboy .conversations .box .c-container .body ul li .message .bubble:before {
+.larachat .conversations .box .c-container .body ul li .message .bubble:before {
   content: '';
   position: absolute;
   border-style: solid;
@@ -222,27 +222,27 @@ FACEBOOK THEME
   left: -6px;
   top: 10px;
 }
-#socieboy .conversations .box .c-container .body ul li .message .blue {
+.larachat .conversations .box .c-container .body ul li .message .blue {
   background: #E2EDFD;
   border-color: #A6B7CF;
   margin: 5px 10px 1px 40px;
 }
-#socieboy .conversations .box .c-container .body ul li .message .blue:after {
+.larachat .conversations .box .c-container .body ul li .message .blue:after {
   border-color: transparent #E2EDFD;
   border-width: 5px 0px 5px 5px;
   left: 214px;
 }
-#socieboy .conversations .box .c-container .body ul li .message .blue:before {
+.larachat .conversations .box .c-container .body ul li .message .blue:before {
   border-color: transparent #A3B3CB;
   border-width: 5px 0px 5px 5px;
   left: 215px;
 }
-#socieboy .conversations .box .c-container .footer {
+.larachat .conversations .box .c-container .footer {
   border-left: 1px solid #acb3c0;
   border-right: 1px solid #acb3c0;
   box-shadow: 1px 1px #d6d7d9;
 }
-#socieboy .conversations .box .c-container .footer textarea {
+.larachat .conversations .box .c-container .footer textarea {
   width: 100%;
   resize: none;
   border-radius: 0px;
@@ -255,25 +255,25 @@ FACEBOOK THEME
   font-weight: normal;
   -ms-overflow-style: none;
 }
-#socieboy .conversations .box .collapsed {
+.larachat .conversations .box .collapsed {
   width: 200px;
 }
-#socieboy .conversations .box .collapsed .header {
+.larachat .conversations .box .collapsed .header {
   overflow: hidden;
   margin-top: 281px;
 }
-#socieboy .conversations .box .collapsed .header .online {
+.larachat .conversations .box .collapsed .header .online {
   display: none;
 }
-#socieboy .conversations .box .collapsed .body {
+.larachat .conversations .box .collapsed .body {
   display: none;
 }
-#socieboy .conversations .box .collapsed .footer {
+.larachat .conversations .box .collapsed .footer {
   display: none;
 }
-#socieboy .conversations-sidebar-hidden {
+.larachat .conversations-sidebar-hidden {
   right: 40px;
 }
-#socieboy .logout {
+.larachat .logout {
   display: none;
 }

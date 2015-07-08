@@ -1,6 +1,6 @@
 @if(auth()->check())
 
-    <div id="socieboy">
+    <div id="socieboy" class="larachat">
 
         <input type="hidden" id="auth" value="{{ auth()->user()->id }}">
 

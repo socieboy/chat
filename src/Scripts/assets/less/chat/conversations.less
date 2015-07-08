@@ -1,0 +1,125 @@
+.conversations{
+  bottom: 0px;
+  position: fixed;
+  right: 250px;
+
+  .box{
+    display: inline;
+    margin-right: 10px;
+    float: right;
+
+    .c-container {
+      border: 0;
+      width: @boxWidth;
+
+      .header {
+
+        cursor: pointer;
+        background: @baseColor;
+        border:1px solid @darkBaseColor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        box-shadow: 1px 1px @boxShadow;
+        color: @conversationFontColor;
+        font-weight: none;
+        padding: 5px 15px;
+        font-size: .9em;
+        letter-spacing: 1px;
+
+        button{
+          float: right;
+          border: 0px;
+          background: transparent;
+        }
+
+      }
+
+      .body {
+        background: #E9EAED;
+        padding: 0px 3px;
+        border-left: 1px solid @bordersBody;
+        border-right: 1px solid @bordersBody;
+        box-shadow: 1px 1px @boxShadow;
+        height: 250px;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+          width: 5px;
+        }
+
+        &::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+        }
+
+        ul{
+          list-style: none;
+          margin: 0px;
+          padding: 0px;
+
+          li{
+
+            @import "message";
+
+          }
+        }
+      }
+
+      .footer {
+        border-left: 1px solid @bordersBody;
+        border-right: 1px solid @bordersBody;
+        box-shadow: 1px 1px @boxShadow;
+
+        textarea{
+          width: 100%;
+          resize: none;
+          border-radius: 0px;
+          border: 0px;
+          border-top: 1px solid #D2D3D5;
+          height: 26px;
+          max-height: 100px;
+          padding: 0px 5px;
+          outline: none !important;
+          font-weight: normal;
+          -ms-overflow-style: none
+        }
+
+      }
+
+    }
+
+    // When the conversation box is collapsed.
+    .collapsed{
+
+      width: @boxWidth - 80;
+
+      .header {
+        overflow: hidden;
+        margin-top: 281px;
+
+        .online{
+          display: none;
+        }
+
+      }
+
+      .body{
+        display: none;
+      }
+      .footer{
+        display: none;
+      }
+    }
+
+  }
+
+}
+
+.conversations-sidebar-hidden{
+  right: 40px;
+}

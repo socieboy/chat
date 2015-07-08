@@ -1,0 +1,49 @@
+<div class="c-container" v-class="collapsed: collapseBox">
+
+    <div class="header" v-on="click: collapseConversation()">
+
+        <i class="fa fa-comment"></i>
+
+        {{ conversation.name | firstName }}
+
+        <button
+                v-on="click:closeConversation(conversation)">
+
+                <i class="fa fa-close close"></i>
+        </button>
+
+    </div>
+
+    <div class="body" v-el="body">
+
+        <ul>
+
+            <li v-repeat="message: messages">
+
+                <message
+                        message="{{@message}}"
+                        conversation="{{@conversation}}">
+                </message>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="footer">
+
+        <textarea
+                placeholder="Message..."
+                v-el="textArea"
+                v-model="newMessage.message"
+                v-on="keyup:sendMessage | key 13">
+        </textarea>
+
+    </div>
+
+</div>
+
+
+

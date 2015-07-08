@@ -1,0 +1,97 @@
+.sidebar{
+
+  position: fixed;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-left: 1px solid @borderColor;
+  width: 250px;
+
+  .header{
+    background: @baseColor;
+    padding: 5px 10px;
+    border-bottom: 1px solid @darkBaseColor;
+    border-bottom: 1px solid @darkBaseColor;
+    color: @conversationFontColor;
+    letter-spacing: 1px;
+  }
+
+  // Online users list.
+  .list-group{
+
+    margin-bottom: 0px;
+    border: 0px;
+
+    // User online
+    .list-group-item{
+      cursor: pointer;
+      border-color: @borderColor;
+      border-top: 0px;
+      border-left: 0px;
+      border-bottom: 0px;
+      border-right: 0px;
+      border-radius: 0px;
+      padding: 3px 2px;
+      margin: 0px;
+
+      // Avatar
+      .avatar{
+        width: 35px;
+        height: 35px;
+        padding: 1px;
+      }
+
+      // Username
+      .name{
+        font-size: .9em;
+      }
+
+      // Display a green icon
+      .online{
+        font-size: .7em;
+        color: @online;
+        float: right;
+        margin: 10px;
+      }
+
+      // Effect when search
+      .staggered-transition {
+        transition: all .2s ease;
+        overflow: hidden;
+        margin: 0;
+      }
+      .staggered-enter, .staggered-leave {
+        opacity: 0;
+        height: 0;
+      }
+
+    }
+
+    .list-group-item:hover{
+       background: @highlightColor;
+     }// END == user online
+
+
+    .highlight{
+      background: blue;
+    }
+
+    .list-group-item:last-child{
+      border-bottom: 0px;
+    }
+
+  } // END == users online list.
+
+  // Search
+  input{
+    font-family: FontAwesome;
+    position: absolute;
+    width: 100%;
+    padding: 5px 5px;
+    font-size: .9em;
+    bottom: 0px !important;
+    outline:none;
+  }
+
+}
