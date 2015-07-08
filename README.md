@@ -34,7 +34,7 @@ Place the service provider on your  app.php config file.
 Socieboy\Chat\ChatServiceProvider::class,
 ```
 
-# Migrations
+## Migrations
 Now execute the command.
 ```
 php artisan chat:tables
@@ -44,14 +44,14 @@ Then run
 php artisan migrate
 ```
 
-# Update laravel auth
+## Update laravel auth
 Update the AuthenticatesAndRegistersUsers trait of the laravel auth controller.
 This trait is updated to fire events when a new user has been logged in and out.
 ```
 Socieboy\Chat\Traits\AuthenticatesAndRegistersUsers
 ```
 
-# Styles and Scripts
+## Styles and Scripts
 Set up on your master view page the fallow code.
 On the meta tags area between the \<head>\</head> tags.
 
