@@ -11,6 +11,11 @@ This package use redis and socket.io to better performance.
 
 Install redis on your server.
 
+```
+nmp install socket.io
+nmp install ioredis
+```
+
 ## Download and Installation
 Download laravel chat package to your project
 ```

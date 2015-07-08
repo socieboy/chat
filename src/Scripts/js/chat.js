@@ -16910,7 +16910,7 @@ module.exports = {
         return {
             search: '',
 
-            isVisible: true,
+            isVisible: false,
 
             conversations: []
         };
@@ -17006,8 +17006,12 @@ module.exports = {
 
     data: function data() {
         return {
-            isVisible: true
+            isVisible: false
         };
+    },
+
+    ready: function ready() {
+        $('#slidebar').toggle();
     },
 
     methods: {
