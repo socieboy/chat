@@ -149,10 +149,12 @@ FACEBOOK THEME
   letter-spacing: 1px;
 }
 .larachat .conversations .box .c-container .header button {
-  font-size: 1em;
   float: right;
   border: 0px;
   background: transparent;
+}
+.larachat .conversations .box .c-container .header button i {
+  font-size: 1em;
 }
 .larachat .conversations .box .c-container .body {
   width: 100%;
