@@ -157,7 +157,6 @@ FACEBOOK THEME
   font-size: 1em;
 }
 .larachat .conversations .box .c-container .body {
-  width: 100%;
   background: #E9EAED;
   padding: 0px 3px;
   border-left: 1px solid #acb3c0;
@@ -165,6 +164,7 @@ FACEBOOK THEME
   box-shadow: 1px 1px #d6d7d9;
   height: 250px;
   overflow-y: scroll;
+  width: 100%;
 }
 .larachat .conversations .box .c-container .body::-webkit-scrollbar {
   width: 5px;
