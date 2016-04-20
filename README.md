@@ -21,7 +21,7 @@ nmp install ioredis
 ## Download and Installation
 Download laravel chat package to your project
 ```
-composer require "socieboy/chat": "dev-master"
+composer require "socieboy/chat" "dev-master"
 ```
 Then execute the command
 ```
